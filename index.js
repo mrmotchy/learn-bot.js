@@ -9,7 +9,7 @@ client.on("message", (message) => {//This event emites when a new messages comes
     //If the message was ping
     if(message.content === "ping"){//then
         //This Runs
-        message.channel.send("Pong!")//This reply Pong! to the channel where message arrives!
+        message.channel.send("alles nur nicht Pong!")//This reply Pong! to the channel where message arrives!
     }
 })
 
